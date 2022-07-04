@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: haocibuni,
+  rootNotionSpaceId: 'haocibuni',
 
   // basic site info (required)
   name: 'haocibuni',
@@ -20,8 +20,8 @@ export default siteConfig({
   twitter: 'haocibuni',
   github: 'haocibuni',
   zhihu: 'haocibuni',
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  // linkedin: '',
+  // instagram: 'onet2lee',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -49,8 +49,8 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  navigationStyle: 'custom',
+  // navigationStyle: 'default'
+     navigationStyle: 'custom',
      navigationLinks: [
        {
          title: 'About',
